@@ -268,7 +268,7 @@ describe('Restaurants API resource', function() {
         })
         .then(function(_restaurant) {
           expect(_restaurant).to.be.null;
-        });
+        }); 
     });
   });
 });
